@@ -12,7 +12,7 @@ set smartindent
 set ignorecase
 set smartcase
 set scrolloff=8
-set colorcolumn=80
+set colorcolumn=100
 set signcolumn=yes
 set cmdheight=2
 set autoread

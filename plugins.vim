@@ -3,6 +3,8 @@
 call plug#begin()
 
 Plug 'sainnhe/sonokai'
+Plug 'catppuccin/nvim', {'as': 'catppuccin'}
+Plug 'dracula/vim', { 'as': 'dracula' }
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'ryanoasis/vim-devicons'
