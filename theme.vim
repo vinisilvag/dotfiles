@@ -13,3 +13,11 @@ endif
 " let g:sonokai_current_word = 'bold'
 " let g:airline_theme = 'sonokai'
 colorscheme dracula
+" colorscheme gruvbox
+
+" let g:airline_theme = 'tokyonight'
+" colorscheme tokyonight-night
+
+" let g:catppuccin_flavour = "mocha" " latte, frappe, macchiato, mocha
+" let g:airline_theme = 'catppuccin'
+" colorscheme catppuccin
