@@ -5,7 +5,6 @@ keymap.set({ "i" }, "jj", "<ESC>", {})
 
 -- Save on CTRL + W
 keymap.set({ "n", "i" }, "<C-s>", "<CMD>write<CR>", {})
-
 -- Force quit
 keymap.set({ "n", "i" }, "<C-q>", "<CMD>quit<CR>", {})
 

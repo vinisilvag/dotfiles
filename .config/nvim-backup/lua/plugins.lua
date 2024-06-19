@@ -21,14 +21,7 @@ return {
   {
     "numToStr/Comment.nvim",
     lazy = false,
-    config = function()
-      require("Comment").setup({
-        opleader = {
-          -- Comment multiple lines in VISUAL mode
-          line = "<C-_>",
-        },
-      })
-    end,
+    config = function() require("Comment").setup({}) end,
   },
   -- Ruler
   {
@@ -54,20 +47,16 @@ return {
     end,
   },
   {
-    "christoomey/vim-tmux-navigator",
-    lazy = false,
-    cmd = {
-      "TmuxNavigateLeft",
-      "TmuxNavigateDown",
-      "TmuxNavigateUp",
-      "TmuxNavigateRight",
-      "TmuxNavigatePrevious",
-    },
-    keys = {
-      { "<C-h>", "<cmd>TmuxNavigateLeft<CR>" },
-      { "<C-j>", "<cmd>TmuxNavigateDown<CR>" },
-      { "<C-k>", "<cmd>TmuxNavigateUp<CR>" },
-      { "<C-l>", "<cmd>TmuxNavigateRight<CR>" },
+    "folke/which-key.nvim",
+    event = "VeryLazy",
+    init = function()
+      vim.o.timeout = true
+      vim.o.timeoutlen = 300
+    end,
+    opts = {
+      -- your configuration comes here
+      -- or leave it empty to use the default settings
+      -- refer to the configuration section below
     },
   },
 }
