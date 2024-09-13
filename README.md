@@ -37,3 +37,5 @@ $ stow nvim
 $ stow tmux
 $ stow zsh
 ```
+
+To load all tmux plugins, install [tpm](https://github.com/tmux-plugins/tpm) and run `prefix + I`.
