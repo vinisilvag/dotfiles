@@ -78,5 +78,16 @@ return {
       )
     end,
   },
+
   { "lukas-reineke/indent-blankline.nvim", enabled = false },
+
+  -- Ruler column
+  {
+    "lukas-reineke/virt-column.nvim",
+    enabled = true,
+    opts = {
+      char = "▕",
+      virtcolumn = "100",
+    },
+  },
 }

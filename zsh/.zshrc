@@ -136,3 +136,9 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 export PATH=$PATH:$HOME/zig
+
+[ -f "/home/vinisilvag/.ghcup/env" ] && . "/home/vinisilvag/.ghcup/env" # ghcup-env
+
+export PATH="$HOME/.config/emacs/bin:$PATH"
+
+alias emacs="emacsclient -c -a 'emacs'"
