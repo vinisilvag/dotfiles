@@ -90,4 +90,9 @@ return {
       virtcolumn = "100",
     },
   },
+
+  {
+    "ThePrimeagen/vim-be-good",
+    enabled = true,
+  },
 }
