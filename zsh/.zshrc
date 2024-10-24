@@ -142,3 +142,11 @@ export PATH=$PATH:$HOME/zig
 export PATH="$HOME/.config/emacs/bin:$PATH"
 
 alias emacs="emacsclient -c -a 'emacs'"
+
+export JAVA_HOME=/usr/lib/jvm/java-21-openjdk-amd64
+export ANDROID_HOME=~/Android/Sdk
+export PATH=$PATH:$ANDROID_HOME/emulator
+export PATH=$PATH:$ANDROID_HOME/tools
+export PATH=$PATH:$ANDROID_HOME/tools/bin
+export PATH=$PATH:$ANDROID_HOME/platform-tools
+export PATH=$PATH:~/android-studio/bin
