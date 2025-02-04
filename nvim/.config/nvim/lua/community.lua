@@ -8,5 +8,5 @@ return {
 
   { import = "astrocommunity.pack.lua" },
 
-  { import = "astrocommunity.completion.copilot-lua-cmp", enabled = true },
+  { import = "astrocommunity.completion.copilot-lua-cmp", enabled = false },
 }
