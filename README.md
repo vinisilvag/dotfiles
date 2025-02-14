@@ -11,13 +11,13 @@ To reproduce you should have installed in your machine:
 ### Git
 
 ```
-$ sudo apt install git
+$ sudo pacman -Syu git
 ```
 
 ### Stow
 
 ```
-$ sudo apt install stow
+$ sudo pacman -Syu stow
 ```
 
 ## Installation
