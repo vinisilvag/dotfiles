@@ -131,6 +131,7 @@ export PATH=$PATH:/usr/local/go/bin
 
 alias vim="nvim"
 alias c="clear"
+alias clion="$HOME/CLion/bin/clion"
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
@@ -141,7 +142,6 @@ export PATH=$PATH:$HOME/zig
 [ -f "/home/vinisilvag/.ghcup/env" ] && . "/home/vinisilvag/.ghcup/env" # ghcup-env
 
 export PATH="$HOME/.config/emacs/bin:$PATH"
-
 alias emacs="emacsclient -c -a 'emacs'"
 
 export JAVA_HOME=/usr/lib/jvm/java-21-openjdk-amd64
@@ -151,5 +151,7 @@ export PATH=$PATH:$ANDROID_HOME/tools
 export PATH=$PATH:$ANDROID_HOME/tools/bin
 export PATH=$PATH:$ANDROID_HOME/platform-tools
 export PATH=$PATH:~/android-studio/bin
+
+export PATH="$HOME/development/flutter/bin:$PATH"
 
 # . "$HOME/.local/bin/env"
