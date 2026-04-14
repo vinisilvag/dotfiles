@@ -11,13 +11,13 @@ To reproduce you should have installed in your machine:
 ### Git
 
 ```
-$ sudo pacman -Syu git
+$ sudo apt install git
 ```
 
 ### Stow
 
 ```
-$ sudo pacman -Syu stow
+$ sudo apt install stow
 ```
 
 ## Installation
@@ -36,6 +36,7 @@ The default usage is `stow package_name`. An example is:
 $ stow nvim
 $ stow tmux
 $ stow zsh
+$ stow ghostty
 ```
 
 To load all tmux plugins, install [tpm](https://github.com/tmux-plugins/tpm) and run `prefix + I`.

@@ -1,0 +1,8 @@
+theme = TokyoNight
+
+gtk-titlebar = true
+window-width = 82
+window-height = 25
+
+font-family = "JetBrainsMono Nerd Font"
+font-size = 15
